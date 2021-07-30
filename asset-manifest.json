@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/miq-mate/static/css/main.0363ec38.chunk.css",
+    "main.js": "/miq-mate/static/js/main.0fe52f55.chunk.js",
+    "main.js.map": "/miq-mate/static/js/main.0fe52f55.chunk.js.map",
+    "runtime-main.js": "/miq-mate/static/js/runtime-main.7fef7e67.js",
+    "runtime-main.js.map": "/miq-mate/static/js/runtime-main.7fef7e67.js.map",
+    "static/js/2.306033a3.chunk.js": "/miq-mate/static/js/2.306033a3.chunk.js",
+    "static/js/2.306033a3.chunk.js.map": "/miq-mate/static/js/2.306033a3.chunk.js.map",
+    "index.html": "/miq-mate/index.html",
+    "static/css/main.0363ec38.chunk.css.map": "/miq-mate/static/css/main.0363ec38.chunk.css.map",
+    "static/js/2.306033a3.chunk.js.LICENSE.txt": "/miq-mate/static/js/2.306033a3.chunk.js.LICENSE.txt",
+    "static/media/bg1.ed4cf5f9.jpg": "/miq-mate/static/media/bg1.ed4cf5f9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fef7e67.js",
+    "static/js/2.306033a3.chunk.js",
+    "static/css/main.0363ec38.chunk.css",
+    "static/js/main.0fe52f55.chunk.js"
+  ]
+}
