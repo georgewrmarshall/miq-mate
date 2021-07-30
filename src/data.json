@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "date": "2021-10-23T18:00:00.000Z",
+      "departureAirport": "YVR",
+      "departureCity": "Vancouver, BC",
+      "arrivalAirport": "AKL",
+      "arrivalCity": "Auckland, NZ"
+    },
+    {
+      "id": "2",
+      "date": "2021-11-07T07:00:00.000Z",
+      "departureAirport": "LHR",
+      "departureCity": "London, UK",
+      "arrivalAirport": "CHC",
+      "arrivalCity": "Christchurch, NZ"
+    },
+    {
+      "id": "3",
+      "date": "2021-08-01T14:00:00.000Z",
+      "departureAirport": "LHR",
+      "departureCity": "London, UK",
+      "arrivalAirport": "AKL",
+      "arrivalCity": "Auckland, NZ"
+    },
+    {
+      "id": "4",
+      "date": "2021-12-15T10:00:00.000Z",
+      "departureAirport": "LHR",
+      "departureCity": "San Francisco, USA",
+      "arrivalAirport": "SFO",
+      "arrivalCity": "Auckland, NZ"
+    }
+  ]
+}

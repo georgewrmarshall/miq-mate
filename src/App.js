@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Container from "@material-ui/core/Container";
+
+import { Navbar, Hero, Table, Search } from "./components";
+
+import "./App.css";
+
+import data from "./data";
 
 function App() {
+  const [allFlights, setAllFlights] = React.useState(data.data);
+  const [searchedFlights, setSearchedFlights] = React.useState("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero>
+        <Search
+          allFlights={allFlights}
+          setSearchedFlights={setSearchedFlights}
+        />
+      </Hero>
+      <Container maxWidth="md">
+        <Table searchedFlights={searchedFlights} allFlights={allFlights} />
+      </Container>
     </div>
   );
 }
